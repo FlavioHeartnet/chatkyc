@@ -11,6 +11,15 @@ export default function Home() {
           return <MessageComponent key={index} string = {dialog} delay={delay} mainDelay={delay - 1} />
         })}
       </div>
+      <form className='
+              w-full
+             fixed
+             inset-x-0
+             bottom-0
+             p-4'>
+        <input type='text' className='form-input px-4 py-3 rounded-lg w-full text-black' name='messageSend'/>
+        <button className='form-button'></button>
+      </form>
     </main>
   )
 }
