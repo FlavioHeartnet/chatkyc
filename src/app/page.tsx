@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="grid bottom-0 scroll-smooth">
       <div className='mx-20 lg:mx-60 sm: mx-1'>
-        <div className=''>
+        <div className='mb-24'>
           {conversationList.map(async (dialog, index) => {
             delay++
             return <MessageComponent key={index} string = {dialog} delay={delay} mainDelay={delay - 1} />
