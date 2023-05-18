@@ -39,7 +39,7 @@ body {
     transform: translate(0, 0);
   }
 }
-.container{
+.container {
   margin-left: 8em;
 }
 .container .dot:nth-last-child(1) {
